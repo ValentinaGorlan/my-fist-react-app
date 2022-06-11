@@ -131,3 +131,16 @@ class App extends Component {
 }
 
 export default App;
+
+
+
+var cat = { name: 'Athena' };
+
+function swap(feline) {
+  feline = { name: 'Tabby' };
+  feline.name = 'Wild';
+
+}
+
+console.log(swap(cat));
+console.log(cat.name, cat);
